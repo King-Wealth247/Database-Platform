@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SignUp</title>
+  <link rel="stylesheet" href="LogIn_SignIn_css.css">
+  <link rel="stylesheet" href="SigUp_LogIn.js">
+</head>
+<body>
+  <div class="case">
+    <br>
+    <h2>SignUp</h2>
+    <form id="form" class="content">
+      <label for="email" id="email">Email: </label>
+      <input type="email" id="email" placeholder="* example@example.com" required>
+      <br><br>
+      <label for="password_1" id="password_1">Password: </label>
+      <input type="password" id="password_1" placeholder="* password" required>
+      <br><br>
+      <label for="password_2">Confirm: </label>
+      <input type="password" id="password_2" placeholder="* confirm password" required>
+      <br>
+      <div id="warning"></div>
+      <br>
+      <label for="Region">Region:</label>
+        <select name="Region" id="Region" style="width: 180px;">
+          <option value="Region"></option>
+          <option value="adamawa">Adamawa</option>
+          <option value="center">Center</option>
+          <option value="east">East</option>
+          <option value="farnorth">Far North</option>
+          <option value="littoral">Littoral</option>
+          <option value="north">North</option>
+          <option value="nortwest">North West</option>
+          <option value="south">South</option>
+          <option value="southwest">South West</option>
+          <option value="west">West</option>
+        </select>
+        <br><br>
+
+        <button type="submit" id="SignUp" class="main">SignUp</button>
+                
+        <button>
+          <a href="A_Project.html">Cancel</a>
+        </button>
+         
+      </form>
+  </div>
+  
+</body>
+</html>
